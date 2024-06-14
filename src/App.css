@@ -1,3 +1,7 @@
 *{
   font-family: 'Inter';
 }
+
+.top-bg{
+  background-image: url('../images/toptexture.svg');
+}

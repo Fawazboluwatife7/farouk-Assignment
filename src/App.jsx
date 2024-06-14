@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/home/Home'
 import Nav from './components/nav/Nav'
@@ -12,7 +12,7 @@ import ViewCandidates from './pages/view-candidates/ViewCandidates'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Nav/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/access-vote-portal" element={<AccessVotingPortal />} />
         <Route path="/view-candidates" element={<ViewCandidates />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

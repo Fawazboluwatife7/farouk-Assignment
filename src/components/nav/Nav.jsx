@@ -17,19 +17,19 @@ const Nav = () => {
           <Link to='/' className={location.pathname === "/" ? "font-bold text-[20px]":"text-light-green font-bold text-[20px]"}>Futurevote</Link>
           <ul className='flex items-center justify-between text-[#00000099] gap-[1rem] text-[14px]'>
             <li>
-              <Link to='/'>Individual</Link>
+              <Link to='/kyc'>Individual</Link>
             </li>
             <li>
-              <Link to='/'>Political parties</Link>
+              <Link to='/view-candidates'>Political parties</Link>
             </li>
             <li>
-              <Link to='/'>Elections</Link>
+              <Link to='/access-vote-portal'>Elections</Link>
             </li>
             <li>
-              <Link to='/'>News</Link>
+              <Link to='/mint-vote'>News</Link>
             </li>
             <li>
-              <Link to='/'>Resources</Link>
+              <Link to='/biometric-capture'>Resources</Link>
             </li>
           </ul>
           <div className='flex items-center gap-3'>
